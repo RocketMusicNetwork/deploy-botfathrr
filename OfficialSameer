@@ -6,10 +6,10 @@ _repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $SPAM_REPO == "Spambot" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL01yUml6b2VsL1NwYW1ib3QvYXJjaGl2ZS9SaXpvZWwuemlw" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0RlYWRseS1GaWdodGVycy9EZWFkbHktU3BhbS1Cb3QtMi4wL2FyY2hpdmUvRGVhZGx5LnppcA==" | base64 -d
     elif [[ $SPAM_REPO == "Spambot" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL01yUml6b2VsL1NwYW1ib3QvYXJjaGl2ZS9SaXpvZWwuemlw" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0RlYWRseS1GaWdodGVycy9EZWFkbHktU3BhbS1Cb3QtMi4wL2FyY2hpdmUvRGVhZGx5LnppcA==" | base64 -d
     elif [[ $SPAM_REPO =~ $regex ]]
     then
         if [[ $SPAM_REPO_BRANCH ]]
@@ -19,7 +19,7 @@ _repolink () {
             echo "${SPAM_REPO}/archive/Rizoel.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL01yUml6b2VsL1NwYW1ib3QvYXJjaGl2ZS9SaXpvZWwuemlw" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0RlYWRseS1GaWdodGVycy9EZWFkbHktU3BhbS1Cb3QtMi4wL2FyY2hpdmUvRGVhZGx5LnppcA==" | base64 -d
     fi
 }
 
@@ -36,10 +36,10 @@ start_bot () {
     rm -rf "$zippath"
     sleep 5
     cd $HELLPATH
-    echo "  • Starting RiZoeLXSpam •  "
+    echo "  • Starting Deadly Bot •  "
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
-    python3 -m RiZoeLXSpam
+    python3 -m OfficialSameer
 }
 
 start_bot
