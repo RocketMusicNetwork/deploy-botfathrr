@@ -1,17 +1,17 @@
 {
-    "name": "RIZOELXSPAM HERE.",
+    "name": "Deadly Spam Bot",
     "description": "MOST POWERFUL + STABLE SPAM USERBOTS",
-    "logo": "https://telegra.ph/file/db194f99e15db50f43c72.jpg",
+    "logo": "",
     "keywords": [
         "telegram",
         "telethon",
         "telegram-bot",
-        "RiZoeLXSpam",
+        "deadlySameer",
         "SpamBots"
     ],
-    "repository": "https://t.me/TheRiZoeL",
-    "website": "https://t.me/TheRiZoeL",
-    "success_url": "https://t.me/TheRiZoeL",
+    "repository": "https://t.me/Deadly-Fighters",
+    "website": "https://t.me/Deadly-Fighters",
+    "success_url": "https://t.me/deadly-fighters",
     "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
